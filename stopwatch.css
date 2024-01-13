@@ -1,0 +1,40 @@
+.box{
+    padding: 2rem;
+    border: 5px solid white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 2rem;
+    background-color: black;
+    color: orange;}
+body{
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.btn{
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(255, 207, 117, 0.945);
+}
